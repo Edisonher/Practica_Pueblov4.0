@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.practica_pueblo.HotelUnoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="@string/hoteluno"
+           android:textSize="30sp"
+           android:textAlignment="center"
+           android:textColor="@color/black"/>
+       <ImageView
+           android:layout_width="300dp"
+           android:layout_height="300dp"
+           android:src="@drawable/hotel1"
+           android:layout_gravity="center"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/descriph1"
+           android:textAlignment="center"
+           android:textColor="@color/black"
+           android:textSize="20sp"/>
+
+
+
+   </LinearLayout>
+
+
+</FrameLayout>

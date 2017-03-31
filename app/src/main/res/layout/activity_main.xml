@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1sp"
+    android:paddingLeft="1sp"
+    android:paddingRight="1sp"
+    android:paddingTop="1sp"
+    tools:context="com.example.admin.practica_pueblo.MainActivity"
+    android:orientation="vertical"
+    android:fillViewport="false">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TITIRIBI"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Titiribí, de la gente y para la gente"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:src="@drawable/tb2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/historia1"
+                android:textSize="15sp"
+                android:textColorLink="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:src="@drawable/tb6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/historia2"
+                android:textSize="15sp"
+                android:textColorLink="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:src="@drawable/tb7"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/historia3"
+                android:textSize="15sp"
+                android:textColorLink="@color/black"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:src="@drawable/tb5"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/historia4"
+                android:textSize="15sp"
+                android:textColorLink="@color/black"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+   
+</LinearLayout>

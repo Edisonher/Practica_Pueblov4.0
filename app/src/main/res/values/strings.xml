@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Titiribi</string>
+    <string name="titulo">titulo</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciarSes">iniciarSes</string>
+    <string name="registrarse">registrarse</string>
+    <string name="INICIARSESION">INICIAR SESION</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="email">Correo</string>
+    <string name="Email">Correo</string>
+    <string name="Repeatpassword">Repite contraseña</string>
+    <string name="historia1">Titiribí es un municipio de la República de Colombia, localizado en la Subregión suroeste del Departamento de Antioquia. Limita por el norte con los municipios de Armenia y Angelópolis, por el este con los municipios de Angelópolis y Amagá, por el sur con el municipio de Venecia, y por el oeste con el municipio de Concordia.
+</string>
+    <string name="historia2">Fue fundado el 17 de abril de 1775 por el señor Benito del Río, en territorios de los indios Nutabes dirigidos por el Cacique Titiribí, de quien la población deriva su nombre.</string>
+    <string name="historia3">Su Economia se basa en la
+    Agricultura: café, caña de azúcar, plátano
+    Ganadería en las vertientes de los ríos. Y en la
+    Minería: carbón y oro
+
+</string>
+    <string name="MiPerfil">Mi Perfil</string>
+    <string name="Principal">Principal</string>
+    <string name="Cerrar">Cerrar Sesion</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contrasena">Contraseña</string>
+    <string name="Correo"> Email </string>
+    <string name="historia4">En el municipio se celebran las Fiestas de la Copla, en el mes de diciembre cada dos años
+Concurso Nacional de Poesía Inédita y Declamación, en el mes de junio
+Encuentro Nacional de Bandas Marciales, en el mes de marzo
+Encuentro Nacional de Danza folclórica en el mes de junio.
+Se realiza una exposición de asnales, mulas y capones en el mes de julio.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hoteluno">Hotel Sara y B</string>
+    <string name="hoteldos">Hotel Titiribi</string>
+    <string name="title_activity_hotel">Hoteles</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Hotel">Hoteles</string>
+    <string name="Bares">Sitios Turisticos</string>
+    <string name="restuno">Restaurante la parrilla</string>
+    <string name="title_activity_restaurante">Restaurantes</string>
+    <string name="restdos">Restaurante Bar titiribi</string>
+    <string name="resttres">Restaurante La Hacienda</string>
+    <string name="Restaurantes">Restaurantes</string>
+    <string name="sitiouno">La meseta</string>
+    <string name="sitiodos">La Mina</string>
+    <string name="sitiotres">Plaza de Toros</string>
+    <string name="title_activity_sitios">Sitios Turisticos</string>
+    <string name="descriph1">Lugar acogedor y confortable, de precio Accequible</string>
+    <string name="descriph2">Lugar con buena vista y de facil acceso, precios especiales</string>
+    <string name="hoteltres">Residencias y Restaurante Alaska</string>
+    <string name="descriph3">Cl Benito del Rio Titiribi 21-21</string>
+    <string name="descripr1">Lugar acogedor con una capacidad para 50 persona. Ofrece cocina tradicional</string>
+    <string name="descripr3">Ofrece la oportunidad de disfrutar de una comida de gran calidad ademas de ofrecer comodidad y un excelente servicio.</string>
+    <string name="descripr2">El equipo que integra el restaurante esta formado por profesionales en el area gastronomica y administrativa con la finalidad de mantener una alta calidad.</string>
+    <string name="descrips1">Mina el zancudo lugar historico, fue uno de los principales recursos de el pueblo.</string>
+    <string name="descrips2">Sitio turistico principalmente para ciclistas, con una hermosa vista natural</string>
+    <string name="descrips3">Actualmente se usa como sede de eventos culturales, en años anteriores funcionaba como plaza de toros en su totalidad.</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Inicio">Inicio</string>
+    <string name="Titiribi">De Titiribi, para Titiribi</string>
+    <string name="Historia">Historia</string>
+    <string name="Fiestas">Fiestas</string>
+    <string name="Economia">Economia</string>
+
+
+</resources>

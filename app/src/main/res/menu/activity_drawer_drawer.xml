@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_principal"
+            android:icon="@drawable/ic_home_black_18dp"
+            android:title="@string/Inicio" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="@string/MiPerfil" />
+        <item
+            android:id="@+id/nav_hotel"
+            android:icon="@drawable/ic_business_black_18dp"
+            android:title="@string/Hotel" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_restaurant_menu_black_18dp"
+            android:title="@string/Restaurantes" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_business_black_18dp"
+            android:title="Sitios Turisticos" />
+
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/Cerrar" />
+
+    </group>
+
+
+
+</menu>

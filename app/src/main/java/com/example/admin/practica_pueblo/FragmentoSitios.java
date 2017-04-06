@@ -61,6 +61,7 @@ public class FragmentoSitios extends Fragment {
         adapter.addFragment(new SitioUnoFragment(), getString(R.string.sitiodos));
         adapter.addFragment(new SitioDosFragment(), getString(R.string.sitiouno));
         adapter.addFragment(new SitioTresFragment(), getString(R.string.sitiotres));
+        adapter.addFragment(new MapaSitioFragment(), getString(R.string.Mapa));
         viewPager.setAdapter(adapter);
     }
 

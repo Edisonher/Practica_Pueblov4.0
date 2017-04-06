@@ -43,7 +43,7 @@ Se realiza una exposición de asnales, mulas y capones en el mes de julio.</stri
     <string name="restuno">Restaurante la parrilla</string>
     <string name="title_activity_restaurante">Restaurantes</string>
     <string name="restdos">Restaurante Bar titiribi</string>
-    <string name="resttres">Restaurante La Hacienda</string>
+    <string name="resttres">El Gourmet de La Abuela Ines</string>
     <string name="Restaurantes">Restaurantes</string>
     <string name="sitiouno">La meseta</string>
     <string name="sitiodos">La Mina</string>
@@ -68,6 +68,8 @@ Se realiza una exposición de asnales, mulas y capones en el mes de julio.</stri
     <string name="Historia">Historia</string>
     <string name="Fiestas">Fiestas</string>
     <string name="Economia">Economia</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Mapa">Mapa</string>
 
 
 </resources>

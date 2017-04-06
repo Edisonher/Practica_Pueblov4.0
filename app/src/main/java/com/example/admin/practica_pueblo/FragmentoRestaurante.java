@@ -61,6 +61,8 @@ public class FragmentoRestaurante extends Fragment {
         adapter.addFragment(new restaurante_1(), getString(R.string.restuno));
         adapter.addFragment(new restaurante_2Fragment(), getString(R.string.restdos));
         adapter.addFragment(new restaurante_3Fragment(), getString(R.string.resttres));
+
+        adapter.addFragment(new MapaResFragment(), getString(R.string.Mapa));
         viewPager.setAdapter(adapter);
     }
 

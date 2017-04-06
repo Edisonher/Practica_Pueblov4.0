@@ -61,6 +61,8 @@ public class FragmentoCuenta extends Fragment {
         adapter.addFragment(new HotelUnoFragment(), getString(R.string.hoteluno));
         adapter.addFragment(new HotelDosFragment(), getString(R.string.hoteldos));
         adapter.addFragment(new HoteltresFragment(), getString(R.string.hoteltres));
+        adapter.addFragment(new MapaHotelFragment(), getString(R.string.Mapa));
+
         viewPager.setAdapter(adapter);
     }
 

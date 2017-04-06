@@ -1,6 +1,7 @@
 package com.example.admin.practica_pueblo;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -19,6 +20,12 @@ public class DrawerActivity extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
 
+    Intent intent;
+    String usuario, correo;
+    SharedPreferences prefs;
+    SharedPreferences.Editor editor;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +42,15 @@ public class DrawerActivity extends AppCompatActivity {
             // Seleccionar item por defecto
             seleccionarItem(navigationView.getMenu().getItem(0));
         }
+
+        prefs = getSharedPreferences("MisPreferencias",MODE_PRIVATE);
+        editor = prefs.edit();
+
+        Bundle extras = getIntent().getExtras();
+        usuario = extras.getString("username");
+        correo = extras.getString("correo");
+
+
     }
 
     private void agregarToolbar() {
@@ -72,6 +88,7 @@ public class DrawerActivity extends AppCompatActivity {
                 fragmentoGenerico = new FragmentoInicio();
                 break;
             case R.id.nav_hotel:
+               // fragmentoGenerico = new MapaResFragment();
                 fragmentoGenerico = new FragmentoCuenta();
                 break;
             case R.id.nav_slideshow:
@@ -84,8 +101,17 @@ public class DrawerActivity extends AppCompatActivity {
                 fragmentoGenerico = new datosPerfil();
                 break;
             case R.id.nav_salir:
-                startActivity(new Intent(this, LoginActivity.class));
+                editor.putInt("login",-1);
+                editor.commit();
+                intent = new Intent (DrawerActivity.this, LoginActivity.class);
+                startActivity(intent);
+                finish();
                 break;
+
+
+
+            //startActivity(new Intent(this, LoginActivity.class));
+                //break;
         }
         if (fragmentoGenerico != null) {
             fragmentManager
